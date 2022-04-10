@@ -1,0 +1,26 @@
+@media only screen and (max-width: 800px) {
+  body {
+    text-size-adjust: 75%;
+  }
+  p {
+    color: black;
+  }
+}
+
+body {
+  background-image: url("5010.png");
+  background-repeat: repeat-y repeat-x;
+}
+
+h1 {
+    text-align: center;
+  }
+  
+p {
+  text-align: center;
+  background-color: white;
+  color: rgb(129, 37, 159);
+}
+h2 {
+  text-align: center;
+}
