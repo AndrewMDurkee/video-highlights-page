@@ -1,17 +1,21 @@
 @media only screen and (max-width: 800px) {
-  body {
-    text-size-adjust: 75%;
+
+  img {
+    width:100%;
   }
-  p {
-    color: black;
+
+  iframe {
+    width:100%;
   }
+
 }
 
 img {
-  width: 700px;
+  width: 50%;
 }
 
 figcaption {
+  font-family: 'tapestry', cursive;
   margin: 5px;
   color: black;
   margin: auto;
@@ -27,6 +31,7 @@ figcaption {
 }*/
 
 h1 { 
+  font-family: 'tapestry', cursive;
   width: 300px;
   padding: 10px;
   background-color: white;
@@ -36,6 +41,7 @@ h1 {
   }
   
 p {
+  font-family: 'tapestry', cursive;
   background-color: white;
   width: 300px;
   padding: 10px;
@@ -45,5 +51,6 @@ p {
   margin: auto;
 }
 h2 {
+  font-family: 'tapestry', cursive;
   text-align: center;
 }
