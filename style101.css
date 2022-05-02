@@ -7,6 +7,10 @@
   }
 }
 
+img {
+  width: 700px;
+}
+
 figcaption {
   margin: 5px;
   color: black;
