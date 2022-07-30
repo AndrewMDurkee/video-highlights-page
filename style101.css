@@ -14,14 +14,15 @@ a:visited {
 
 body {
   font-family: "Times New Roman", Times, serif;
+  font-size: .17in;
 }
 
 /* Style the header */
 header {
   /*background-color: #666;*/
-  padding: 15px;
+  padding: .15in;
   text-align: center;
-  font-size: 35px;
+  font-size: .35in;
   background-color: white;
   text-shadow: 0px 0px 25px rgb(100, 100, 100);
   /*color: white;*/
@@ -39,10 +40,10 @@ nav {
   -ms-flex: 0;
   flex: 1;
   /*background: #ccc;*/
-  padding-right:10px;
-  padding-left:300px;
-  padding-bottom:50px;
-  line-height: 50px;
+  padding-right:.1in;
+  padding-left:3in;
+  padding-bottom:.5in;
+  line-height: .5in;
   font-style: italic;
 }
 
@@ -65,16 +66,16 @@ article {
   -ms-flex: 5;
   flex: 5;
   /*background-color: #f1f1f1;*/
-  padding-left: 10px;
-  padding-right: 300px;
+  padding-left: .1in;
+  padding-right: 3in;
 }
 
 /* Style the footer */
 footer {
   /*background-color: #777;*/
   font-size: 75%;
-  padding-top: 50px;
-  padding-bottom: 10px;
+  padding-top: .5in;
+  padding-bottom: .1in;
   text-align: center;
 }
 img {
@@ -93,11 +94,11 @@ img {
     flex-direction: column;
   }
   nav {
-    padding-left:10px;
+    padding-left:.1in;
     text-align: center;
   }
   article {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: .1in;
+    padding-right: .1in;
   }
 }
